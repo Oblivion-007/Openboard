@@ -3,7 +3,7 @@
 }
 
 .options-cont {
-    position: absolute;
+    position: sticky;
     top: 1rem;
     left: 1.5rem;
     display: flex;
@@ -25,7 +25,7 @@
 }
 
 .tools-cont {
-    position: absolute;
+    position: sticky;
     top: 5rem;
     left: 1.5rem;
     display: flex;
@@ -47,7 +47,7 @@
     background-color: rgb(206, 204, 204);
     height: 4rem;
     width: 9rem;
-    position: absolute;
+    position: sticky;
     left: 4.7rem;
     border-radius: 12px;
     display: none;
