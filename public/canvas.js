@@ -32,7 +32,7 @@ canvas.addEventListener("mousedown", (e) => {
         x: e.clientX,
         y: e.clientY,
     };
-    beginPath(data);
+//     beginPath(data);
     // send data to server
     socket.emit("beginPath", data);
 });
@@ -44,7 +44,7 @@ canvas.addEventListener("mousemove", (e) => {
             color: eraserFlag ? eraserColor : penColor,
             width: eraserFlag ? eraserWidth : penWidth,
         };
-        drawStroke(data);
+//         drawStroke(data);
         socket.emit("drawStroke", data);
     }
 });
